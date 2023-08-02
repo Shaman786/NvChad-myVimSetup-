@@ -2,6 +2,8 @@ local plugins = {
   {
     "github/copilot.vim", lazy = false
   },
+  {"christoomey/vim-tmux-navigator",
+  lazy = false,},
   { "lewis6991/gitsigns.nvim",  lazy = false },
   { "dinhhuy258/git.nvim",      lazy = false },
   { "svrana/neosolarized.nvim", lazy = false },
